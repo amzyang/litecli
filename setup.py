@@ -25,7 +25,7 @@ readme = open_file("README.md")
 install_requirements = [
     "click >= 4.1",
     "Pygments>=1.6",
-    "prompt_toolkit>=3.0.3,<4.0.0",
+    "prompt_toolkit @ git+https://github.com/amzyang/python-prompt-toolkit",
     "sqlparse",
     "configobj >= 5.0.5",
     "cli_helpers[styles] >= 2.2.1",
