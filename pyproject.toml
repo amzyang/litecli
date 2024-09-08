@@ -12,7 +12,7 @@ dependencies = [
     "click>=4.1,!=8.1.*",
     "configobj>=5.0.5",
     "mypy>=1.17.1",
-    "prompt-toolkit>=3.0.3,<4.0.0",
+    "prompt-toolkit @ git+https://github.com/amzyang/python-prompt-toolkit",
     "pygments>=1.6",
     "sqlparse>=0.4.4",
     "setuptools",                   # Required by llm commands to install models
